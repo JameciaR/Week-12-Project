@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body class="container">
+    <div class="card">
+        <div class="card-header">
+            <h1>Grocery List</h1>
+        </div>
+        <div class="card-body">
+            <input type="text" id="grocery item" class="form-control" placeholder="New Grocery Item">
+            <button id="create-new-grocery-list" class="btn btn-primary">Create</button>
+        </div>
+    </div>
+
+    <div id="grocery items"></div>
+    <!-- required scripts -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
